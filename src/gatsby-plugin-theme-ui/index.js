@@ -2,8 +2,6 @@ import { merge } from "theme-ui"
 import { tailwind } from "@theme-ui/presets"
 
 
-
-
 const theme = merge(tailwind, {
   config: {
     initialColorModeName: `light`,
@@ -42,6 +40,7 @@ const theme = merge(tailwind, {
       textRendering: `optimizeLegibility`,
       WebkitFontSmoothing: `antialiased`,
       MozOsxFontSmoothing: `grayscale`,
+      fontFamily: 'monospace'
     },
     p: {
       fontSize: [1, 1, 2],
@@ -50,6 +49,7 @@ const theme = merge(tailwind, {
       "--baseline-multiplier": 0.179,
       "--x-height-multiplier": 0.35,
       wordBreak: `break-word`,
+      fontFamily: 'monospace',
     },
     ul: {
       li: {
