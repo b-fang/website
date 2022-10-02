@@ -1,6 +1,7 @@
 import { merge } from "theme-ui"
 import { tailwind } from "@theme-ui/presets"
-import 'terminal.css'
+
+
 
 
 const theme = merge(tailwind, {
@@ -29,7 +30,7 @@ const theme = merge(tailwind, {
     },
   },
   fonts: {
-    body: `-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`,
+    body: `-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`
   },
   styles: {
     root: {
