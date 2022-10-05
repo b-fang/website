@@ -33,7 +33,7 @@ For this bot, I needed to pull my own summoner data from the league-v4 API as we
  - my current Rank ('I', 'II', 'III', 'IV')
 
 To do so, a Riot API key is necessary for authentication. The general use process for the [riot API](https://developer.riotgames.com/docs/portal#_getting-started) can be found here.
-Additionally, the RiotWatcher library was used out of convinience. More info about [RiotWatcher](https://riot-watcher.readthedocs.io/en/latest/) can be found here.
+Additionally, the RiotWatcher library was used out of convenience. More info about [RiotWatcher](https://riot-watcher.readthedocs.io/en/latest/) can be found here.
 
 For this project, a summoner object that stored the requested data given by the riot API was utilized. Since the league-v4 API returns a set object that includes other
 data points like 'summonerID' and 'leagueID', the set must be parsed for the specifics of my project (LP, Tier, and Rank). These data values are stored and later passed to the discord API.
